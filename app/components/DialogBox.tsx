@@ -13,7 +13,7 @@ const DialogBox: React.FC<DialogBoxProps> = ({ open, onOpenChange, title, childr
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="bg-blue-700">
         <DialogHeader>
-          <DialogTitle>{title}</DialogTitle>
+          <DialogTitle className="text-white">{title}</DialogTitle>
         </DialogHeader>
         {children}
       </DialogContent>
